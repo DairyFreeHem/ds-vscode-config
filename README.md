@@ -3,7 +3,7 @@ with Template taken and edited from [nds_vscode_template](https://github.com/cui
 
 ---
 
-This project is a basic working example of a VSCode C/C++ config to compile and debug a [devkitPro](https://devkitpro.org/wiki/Getting_Started) project for the Nintendo DS.
+This is a basic working example of a VSCode C/C++ config to compile and debug a [devkitPro](https://devkitpro.org/wiki/Getting_Started) project for the Nintendo DS.
 
 This is configured to work on Linux.
 
