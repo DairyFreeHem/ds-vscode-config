@@ -1,17 +1,13 @@
-# Basic RTS Part 1
-In this example we learn how to use the stylus to select a house and have a menu pop up. In Part 2, we will use this menu to select units to create.
+Basic example taken from the repo [NDS-Homebrew-Development](https://github.com/jdriselvato/NDS-Homebrew-Development),
+with Template taken and edited from [nds_vscode_template](https://github.com/cuibonobo/nds_vscode_template)
 
-# Source Files
-This is the first time we actually split up our code into different source files. This is truly a better way to organize the code into different sections in order to keep things cleaner and easier to understand.
+---
 
-#### Menu
-menu.c & menu.h will contain the functionality of all menu related code. This includes showing the menu, selecting items from the menu and more.
+This project is a basic working example of a VSCode C/C++ config to compile and debug a [devkitPro](https://devkitpro.org/wiki/Getting_Started) project for the Nintendo DS.
 
-#### Units
-unit.c & unit.h will contain the functionality and act as a class for the basic unit in our RTS. This includes generating, moving and killing off units.
+This is configured to work on Linux.
 
-#### House
-house.c & house.h will contain the functionality of the house. The house is used to create additional units which also requires the menu to be shown to do so.
+If you're using Windows, just the instances of **/opt/** with **C:\** ( the install location of devkitPro ).
 
-### Preview
-![selecting a house](./preview/selecting_house.gif)
+
+for more information, please check out the repos mentioned above, they explain it better than I can.
