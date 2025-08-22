@@ -5,14 +5,15 @@
             "forcedInclude": ["${workspaceFolder}/include/vscode_fix.h"],
             "includePath": [
                 "${workspaceFolder}",
-                "${workspaceFolder}/include/**",
-                "/opt/devkitpro/libnds/include/**",
-                "/opt/devkitpro/devkitARM/arm-none-eabi/include/**"
+                "${workspaceFolder}/include",
+                "/opt/devkitpro/libnds/include",
+                "/opt/devkitpro/devkitARM/arm-none-eabi/include",
+                "/opt/devkitpro/calico/include"
             ],
             "defines": [
                 "_DEBUG",
                 "_UNICODE",
-                "ARM7",
+                //"ARM7",
                 "ARM9",
                 "__NDS__"
             ],
@@ -21,14 +22,15 @@
                     "${workspaceFolder}",
                     "${workspaceFolder}/include/**",
                     "/opt/devkitpro/libnds/include/**",
-                    "/opt/devkitpro/devkitARM/arm-none-eabi/include/**"
+                    "/opt/devkitpro/devkitARM/arm-none-eabi/include/**",
+                    "/opt/devkitpro/calico/include/**"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
             },
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "compilerPath": "/opt/devkitpro/devkitARM/bin/arm-none-eabi-g++"
+            "compilerPath": "/opt/devkitpro/devkitARM/bin/arm-none-eabi-g++",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4
