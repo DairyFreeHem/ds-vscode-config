@@ -13,7 +13,8 @@
                 "_DEBUG",
                 "_UNICODE",
                 "ARM7",
-                "ARM9"
+                "ARM9",
+                "__NDS__"
             ],
             "browse": {
                 "path": [
